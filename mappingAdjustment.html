@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>TENMA WEB</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
+        type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
+</head>
+
+<body>
+    <div class="back">
+        <div class="div-center">
+            <div class="content">
+                <div>
+                    <div class="form-group">
+                        <label for="scan_qr_rfid">Scan QR RFID</label>
+                        <input type="text" class="form-control" id="scan_qr_rfid" placeholder="Scan QR RFID">
+                    </div>
+                    <div class="form-group">
+                        <label for="scan_mo_label">Scan MO Label</label>
+                        <input type="text" class="form-control" id="scan_mo_label" placeholder="Scan MO Label">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mo_no">MO NO</label>
+                        <input type="text" class="form-control" id="mo_no_1" placeholder="MO_NO" disabled>
+                        <input type="text" class="form-control" id="mo_no_2" placeholder="MO_NO" disabled>
+                        <input type="text" class="form-control" id="mo_no_3" placeholder="MO_NO" disabled>
+                        <input type="text" class="form-control" id="mo_no_4" placeholder="MO_NO" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="lot_no">Lot No</label>
+                        <input type="text" class="form-control" id="lot_no" placeholder="Lot No" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="mo_qty">MO QtyN</label>
+                        <input type="text" class="form-control" id="mo_qty" placeholder="MO Qty" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="1_box_qty">1 Box Qty</label>
+                        <input type="text" class="form-control" id="1_box_qty" placeholder="1 Box Qty" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="ok_ng_qty">OK + NG Qty</label>
+                        <input type="text" class="form-control" id="ok_ng_qty" placeholder="OK + NG Qty" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="scan_export_label">Scan Export Label</label>
+                        <input type="text" class="form-control" id="scan_export_label" placeholder="Scan Export Label">
+                    </div>
+
+                    <div class=" text-center">
+                        <button id="clear_btn" class="btn btn-primary">Clear</button>
+                        <button id="sublit_btn" class="btn btn-primary">Submit</button>
+                    </div>
+                    <div class="text-center">
+                        <button id="back_btn" class="btn btn-primary">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="scripts/script.js"></script>
+<script src="scripts/mapping_adjusment.script.js"></script>
+
+</html>

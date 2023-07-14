@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>TENMA WEB</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
+        type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
+</head>
+
+<body>
+    <div class="back">
+        <div class="div-center">
+            <div class="content">
+                <div>
+                    <div class="form-group">
+                        <label for="scan_qr_rfid">Scan QR RFID</label>
+                        <input type="text" class="form-control" id="scan_qr_rfid" placeholder="Scan QR RFID">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Item Code">Item Code</label>
+                        <input type="text" class="form-control" id="item_code" placeholder="Item Code" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="Item Name">Item Name</label>
+                        <input type="text" class="form-control" id="item_name" placeholder="Item Name" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="customer_pn">Customer PN</label>
+                        <input type="text" class="form-control" id="customer_pn" placeholder="Customer PN" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="Box Code">Customer PN</label>
+                        <input type="text" class="form-control" id="box_code" placeholder="Box Code" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="Std Quantity">Std Quantity</label>
+                        <input type="text" class="form-control" id="std_quantity" placeholder="Std Quantity" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="Description">Std Quantity</label>
+                        <input type="text" class="form-control" id="description" placeholder="Description" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="Location">Location</label>
+                        <select name="locations" id="locations" class="form-control">
+                            <option> locations 1</option>
+                            <option> locations 2</option>
+                            <option> locations 3</option>
+                            <option> locations 4</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="Status">Status</label>
+                        <select name="Status" id="Status" class="form-control">
+                            <option>Status 1</option>
+                            <option>Status 2</option>
+                            <option>Status 3</option>
+                            <option>Status4</option>
+                        </select>
+                    </div>
+
+                    <div class=" text-center">
+                        <button id="clear_btn" class="btn btn-primary">Clear</button>
+                        <button id="save_btn" class="btn btn-primary">Save</button>
+                    </div>
+                    <div class="text-center">
+                        <button id="back_btn" class="btn btn-primary">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="scripts/script.js"></script>
+<script src="scripts/mapping_edit.script.js"></script>
+
+</html>
